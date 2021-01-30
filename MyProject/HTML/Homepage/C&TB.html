@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> My Book </title>
+    <link rel="icon" href="../../Image/Icon.PNG">
+    <link href="../../CSS/Homepage.CSS" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </head>
+  <body>
+    <script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("Category");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+    <header>
+    </header>
+    <main>
+    <div class= "topnav">
+      <i class="fa fa-shopping-basket" alt="shopping cart"></i>
+      <a href="./Sign in.html">Sign in</a>
+      <a href="./Sign up.HTML">Sign up</a>
+    </div>
+    <center> <img src="../../Image/Logo.PNG" alt="Logo" width="20%" height="10%"> </center>
+    <div class="homepage">
+      <a href="./index.HTML">Homepage >
+        <a href="./C&TB.html">Computer and teachnology book</a></a>
+    </div>
+    <div class="row">
+      <div class="left" style="background-color:#999966;">
+        <h1>Welcome to My Book</h1>
+        <input type="text" id="Search" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+        <ul id="Category">
+          <li><a href="./C&TB.html">Computer and technology book</a></li>
+        </ul>
+      </div>
+      <div class="right" style="background-color:#cccc99;">
+        <div class="cover">
+          <a href="#"><h2>Computer and technology book</h2></a>
+          <div class="incover">
+            <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/41HrMSnMfUL._SX400_BO1,204,203,200_.jpg" style="width:75%"></a><br>
+            <div class="work">
+              <a href="#">Algorithms</a>
+            </div>
+            <div class="Authur">
+              <p> Robert Sedgewick </p>
+            </div>
+            <div class="price">
+              <p>$69.89 USD</p>
+            </div>
+          </div>
+          <div class="incover">
+            <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/41XnMjLyYAL._SX380_BO1,204,203,200_.jpg" style="width:72%"></a><br>
+            <div class="work">
+              <a href="#">Computer basic: Absolute beginner's guide</a>
+            </div>
+            <div class="Authur">
+              <p> Michael Miller </p>
+            </div>
+            <div class="price">
+              <p>$16.69 USD</p>
+            </div>
+          </div>
+          <div class="incover">
+            <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/41RnVZ3hsbL._SX348_BO1,204,203,200_.jpg" style="width:66%"></a><br>
+            <div class="work">
+              <a href="#">Computer made easy: From Dummy to Geek</a>
+            </div>
+            <div class="Authur">
+              <p>James Bernstein </p>
+            </div>
+            <div class="price">
+              <p>$14.01 USD</p>
+            </div>
+          </div>
+          <div class="incover">
+            <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/41sPxe8jKhL._SX348_BO1,204,203,200_.jpg" style="width:66%"></a><br></br>
+            <div class="work">
+              <a href="#">Network made easy: <br></br> Get yourseft connected</a>
+            </div>
+            <div class="Authur">
+              <p>James Bernstein </p>
+            </div>
+            <div class="price">
+              <p>$13.90 USD</p>
+            </div>
+          </div>
+          <div class="incover">
+            <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/41hA3lDmyUL._SX348_BO1,204,203,200_.jpg" style="width:66%"></a><br></br>
+            <div class="work">
+              <a href="#">Window 10 made easy: Take control of your PC</a>
+            </div>
+            <div class="Authur">
+              <p>James Bernstein</p>
+            </div>
+            <div class="price">
+              <p>$13.99 USD</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    <footer>
+      <div class="footer">
+        <div class="infooter">
+          <h3>Support</h3>
+          <p>Order Status</p>
+          <p>Shipping</p>
+          <p>Return Policy</p>
+          <p>Support Center</p>
+        </div>
+
+        <div class="infooter">
+          <h3>Shop</h3>
+          <p>Gift Certificate</p>
+          <p>Wholesale</p>
+          <p>Affiliates Program</p>
+          <p>Deals & Discounts</p>
+        </div>
+
+        <div class="infooter">
+          <h3>About Us</h3>
+          <p>History</p>
+          <p>Impact</p>
+          <p>Purpose & Values</p>
+          <p>Better World Books Cares</p>
+        </div>
+      </div>
+    </footer>
+  </body>
