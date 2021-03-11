@@ -1,0 +1,79 @@
+.Cart{
+  margin-top: 2%;
+}
+.SHCart tr, th{
+  margin-top: 5%%;
+  color: #cccc99
+}
+.cc p{
+  font-size: 150%;
+  color: black;
+}
+.ccc p{
+  font-size: 150%;
+  color: black;
+}
+.imgimg h5{
+  font-size: 150%;
+  font-weight: bold;
+}
+.imgimg p{
+  font-size: 100%;
+  font-weight: none;
+}
+.imgimg{
+  padding: 5%;
+}
+table, th, tr, td{
+  border: none;
+}
+.cc{
+  margin-left: 5%;
+}
+.ccc{
+  margin-left: 35%;
+}
+.button{
+  float:left;
+  padding: 7px 15px;
+  margin-left: 10%;
+  border-radius: 2px;
+  background-color: #999966;
+  border: none;
+  outline: none;
+}
+.button a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.button a:hover{
+  text-decoration: none;
+  color: black;
+}
+.button1{
+  margin-top: 3px;
+  float:right;
+  padding: 7px 15px;
+  margin-right: 15%;
+  border-radius: 2px;
+  background-color: #999966;
+  border: none;
+  outline: none;
+}
+.button1 a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.button1 a:hover{
+  text-decoration: none;
+  color: black;
+}
+.total p{
+  font-size: 150%;
+  text-align: right;
+  margin-right: 10%;
+  font-weight: bold;
+}
+.col-6{
+  margin-left: 65%;
+}
