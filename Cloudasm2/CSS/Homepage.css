@@ -1,0 +1,223 @@
+{
+  box-sizing: border-box;
+}
+.topnav{
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.topnav a {
+  padding: 7.5px 15px;
+  text-decoration: none;
+  margin-left: 5px;
+  border-radius: 2px;
+  background-color: #191970;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+.topnav i{
+  padding: 7.5px 15px;
+  margin-left: 5px;
+  border-radius: 2px;
+  background-color: #191970;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+.topnav input[type=text] {
+  float: center;
+  padding: 8px;
+  margin-top: 8px;
+  margin-right: 400px;
+  border: 1px solid #999933;
+  font-size: 17px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+  margin-top: 20px;
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 3%;
+  padding: 15px 0;
+}
+
+.left h1 {
+  font-size: 25px;
+  padding-left: 8px;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 65%;
+  padding: 15px;
+}
+
+/* Style the search box */
+#Search {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #999933;
+}
+
+/* Style the navigation menu inside the left column */
+#Category {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#Category li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#Category li a:hover {
+  background-color: #eee;
+}
+.cover{
+  margin-top: 5px;
+ clear: both;
+ display: table;
+}
+.incover{
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+h2{
+  font-size: 25px;
+  float: top;
+  margin-bottom: 0px;
+  margin-left: 6px;
+  font-family: cursive;
+}
+a {
+  text-decoration: none;
+}
+.incover p {
+  font-style: normal;
+}
+.work a{
+  font-size: 18px;
+  color: #996633;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.work a:hover {
+  Color: #666633;
+}
+.seemore{
+  float: right;
+  margin-right: 2em;
+  padding: 7.5px 15px;
+  margin-left: 5px;
+  border-radius: 2px;
+  background-color: #4682B4;
+  border: none;
+  outline: none;
+}
+.seemore a{
+  color: #191970
+}
+.Authur{
+  float: bottom;
+  margin-bottom: 0px;
+}
+.Authur p{
+  font-family: serif;
+  font-size: 13px;
+  color: grey;
+  font-style: italic;
+}
+.price{
+  margin-top: 0px;
+}
+.price p{
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.homepage{
+  margin-left: 280px;
+  margin-top: 10px;
+}
+footer{
+  color: grey;
+}
+.footer{
+  clear: both;
+  display: table;
+}
+.infooter{
+  margin-right:50px;
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+.infooter p{
+  font-family: ariel;
+  font-size: 12px;
+}
+table, th, td{
+  border: 1px solid #996600;
+  border-collapse: collapse;
+  color: #ffffff
+}
+.table{
+  margin-top: 2%;
+  width: 70%;
+  background-color: #999933;
+
+}
+.table td{
+  background-color: #ffffff;
+}
+.table p{
+  font-family: serif;
+  font-size: 200%;
+  color: #999933;
+}
+button {
+  padding: 7.5px 15px;
+  text-decoration: none;
+  margin-left: 0px;
+  border-radius: 2px;
+  background-color:#191970;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+.detail{
+  margin-top: 3%;
+  clear: both;
+  display: table;
+}
+.imgdetail{
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+.imgdetail h4{
+  font-family: fantasy;
+  margin-top: 0%;
+  font-weight: bold;
+  font-size: 200%;
+}
+.imgdetail p{
+  font-size: 80%;}
