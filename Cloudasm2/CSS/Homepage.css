@@ -34,22 +34,21 @@
   font-size: 17px;
 }
 body {
- @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-
-@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
-
-body {
-	font-family: "Montserrat", sans-serif;
-	min-height: 80vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
-* {
-	font-family: "Montserrat", sans-serif !important;
-}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 * {
